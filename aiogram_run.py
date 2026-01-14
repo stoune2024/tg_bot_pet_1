@@ -1,8 +1,8 @@
 import asyncio
 from create_bot import bot, dp, admins
-from easy_refer_bot.db_handler.db_funk import get_all_users
-from easy_refer_bot.handlers.admin_panel import admin_router
-from easy_refer_bot.handlers.user_router import user_router
+from bot.db_handler import get_all_users
+from bot.handlers import admin_router
+from bot.handlers import user_router
 from aiogram.types import BotCommand, BotCommandScopeDefault
 
 
